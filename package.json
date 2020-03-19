@@ -2,7 +2,11 @@
   "name": "components",
   "version": "1.0.0",
   "description": "zhijie的组件库",
-  "keywords": ["vue","components","组件库"],
+  "keywords": [
+    "vue",
+    "components",
+    "组件库"
+  ],
   "author": "zhijie 13570484390@163.com",
   "private": true,
   "scripts": {
@@ -14,6 +18,7 @@
   },
   "dependencies": {
     "node-sass": "^4.13.1",
+    "qrcodejs2": "^0.0.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

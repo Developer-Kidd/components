@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import Button from './button'
+import Qrcode from './qrcode'
 
 const components = {
-  Button
+  Button,
+  Qrcode
 }
 
 components.install = () => {

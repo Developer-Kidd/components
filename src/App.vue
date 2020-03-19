@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <cc-button size="small">测试</cc-button>
+    <cc-qrcode url="www.baidu.com"></cc-qrcode>
     <router-view/>
   </div>
 </template>
@@ -19,5 +19,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background-color: #eee;
 }
 </style>
